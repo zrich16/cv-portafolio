@@ -1,0 +1,22 @@
+.tabla-skill {
+  width: 80%; /* O un ancho en píxeles, por ejemplo: 600px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-img {
+  width: 70px; /* Ancho de la imagen */
+  height: 70px; /* Misma altura */
+
+}
+
+/* Estilo base de la imagen */
+.imagen-efecto {
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+  transform: scale(1); /* Tamaño original */
+}
+
+/* Estilo al pasar el cursor sobre la imagen */
+.imagen-efecto:hover {
+  transform: scale(1.5); /* Escala la imagen un 10% */
+}
